@@ -15,3 +15,5 @@ hadoop fs -copyFromLocal spring-boot-bigdata/data/2016-stack-overflow-survey-res
 * Go to cloudera quick start VM and open command prompt
 * run below command 
 spark2-submit --verbose --deploy-mode client --master yarn /home/cloudera/CodeBase/spring-bigdata/target/spring-bigdata.jar
+Now hit the below URL
+http://localhost:8080/spring-bigdata/spark/wordcount
